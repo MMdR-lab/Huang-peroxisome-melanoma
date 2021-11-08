@@ -16,10 +16,10 @@ First, We analyzed the single-cell data to generate various gene signatures that
 
 Next, to measure the activity of the gene signatures in each cell, we used the AUCell algorithm (Aibar et al., 2017). The activity of each of the signatures was visualized by i) projecting all 674 cells into a two-dimensional space using t-distributed stochastic neighbor embedding (t-SNE, perplexity = 30, initial_dims = 10, max_iter = 1000) based on the expression of all genes in the signatures and ii) coloring cells according to their binary AUCell score.
 
-(6) Lastly, performing a pan-cancer analysis to identify drugs that could repress the immune resistance program in cancer cells. For more information see Repressing the immune resistance program.
+Lastly, identifying pigmentation, SMC-like, NCSC-like and invasion phenotypes in melanoma cells according to AUCell results and visualizing the expression of UGCG, GBA, PEX3 and AGPS with violin plot.
 
-General notes
-The code provided in ImmRes_master.R reproduces the key results of the study. It also generates the study figures and table in the Output directory. The code follows the analyses that were performed in the study in a sequential manner.
+## General notes
+The code provided in single cell v1.R reproduces the key results of the study. It also generates the study figures in the images directory. The code refers to the analyses that were performed in the article Toward Minimal Residual Disease-Directed Therapy in Melanoma.
 
 As the results are already provided in the Results directory, it is possible to run only some parts of the code and focus on specific analyses, or apply the approach to other datasets.
 
