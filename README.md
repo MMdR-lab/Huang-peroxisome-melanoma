@@ -23,5 +23,5 @@ The code provided in single cell v1.R reproduces the key results of the study. I
 
 As the results are already provided in the Results directory, it is possible to run only some parts of the code and focus on specific analyses, or apply the approach to other datasets.
 
-Citation
-Jerby-Arnon L et al. Single-cell RNA-seq of melanoma ecosystems reveals sources of T cell exclusion linked to immunotherapy clinical outcomes.
+## Citation
+Huang F et al. ******
