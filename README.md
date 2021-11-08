@@ -12,11 +12,11 @@ In the outputs folder you will also find the processed single-cell gene expressi
 ## Quick start
 To reproduce the results reported in Huang et al., download GSE116237_scRNAseq_expressionMatrix.txt from the RAWDATA folder. In R run the Code file single cell v1.R. It will walk you through the different stages of the study.
 
-First, We analyzed the single-cell data to generate various gene signatures that characterize different cell states, including pigmentation, SMC, NCSC and invasion. We referred to the article Toward Minimal Residual Disease-Directed Therapy in Melanoma for the gene signatures. For more information see the file signature.csv.
+First, we analyzed the single-cell data to generate various gene signatures that characterize different cell states, including pigmentation, SMC-like, NCSC-like and invasion. We referred to the article Toward Minimal Residual Disease-Directed Therapy in Melanoma for the gene signatures. For more information, see the file signature.csv.
 
-Next, to measure the activity of the gene signatures in each cell, we used the AUCell algorithm (Aibar et al., 2017). The activity of each of the signatures was visualized by i) projecting all 674 cells into a two-dimensional space using t-distributed stochastic neighbor embedding (t-SNE, perplexity = 30, initial_dims = 10, max_iter = 1000) based on the expression of all genes in the signatures and ii) coloring cells according to their binary AUCell score.
+Next, to measure the activity of the gene signatures in each cell, we used the AUCell algorithm (Aibar et al., 2017). The activity of each of the signatures was visualized by i) projecting all 674 cells into a two-dimensional space using t-distributed stochastic neighbor embedding (t-SNE, perplexity = 30, initial_dims = 10) based on the expression of all genes in the signatures and ii) coloring cells according to their binary AUCell score.
 
-Lastly, identifying pigmentation, SMC-like, NCSC-like and invasion phenotypes in melanoma cells according to AUCell results and visualizing the expression of UGCG, GBA, PEX3 and AGPS with violin plot.
+Lastly, we identified cell states (pigmentation, SMC-like, NCSC-like and invasion) in melanoma patient-derived xenografts with different therapy stages according to AUCell results and visualized the expression of UGCG, GBA, PEX3 and AGPS with violin plot.
 
 ## General notes
 The code provided in single cell v1.R reproduces the key results of the study. It also generates the study figures in the images directory. The code refers to the analyses that were performed in the article Toward Minimal Residual Disease-Directed Therapy in Melanoma.
