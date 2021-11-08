@@ -1,18 +1,16 @@
 # Mapping phenotype switching in the process of melanoma therapy with single-cell data
-This resource provides the code developed in the study of Fan et al. It reproduces the key results of the study and can be applied to other single-cell cohorts to explore the characteristics of phenotype switching in melanoma.
+This resource provides the code developed in the study of Huang et al. It reproduces the key results of the study and can be applied to other single-cell cohorts to explore the characteristics of phenotype switching in melanoma.
 
 ## Requirements
 R (tested in R version 4.0.3 (2020-10-10)).
 R libraries: Seurat, dplyr, patchwork, AUCell, GSEABase
 ## Raw Data
-The data is provided in the RAW DATA folder (ImmRes_Rfiles.zip).
+The data is provided in the RAWDATA folder (GSE116237_scRNAseq_expressionMatrix.txt).
 
-In the Portal you will also find the processed single-cell gene expression along with interactive views.
+In the outputs folder you will also find the processed single-cell gene expression (melanoma.rds).
 
-Quick start
-To reproduce the results reported in Jerby-Arnon et al. download ImmRes_Rfiles.zip from the Single Cell Portal. Unzip the file and move the resulting Data directory to the ImmuneResistance directory.
-
-In R go to the Code directory and run master.code() which is provided in ImmRes_master.R. The master.code() will walk you through the different stages of the study, divided into six main modules:
+## Quick start
+To reproduce the results reported in Huang et al. download GSE116237_scRNAseq_expressionMatrix.txt from the RAWDATA folder. In R run the Code file single cell v1.R, which is provided in ImmRes_master.R. The master.code() will walk you through the different stages of the study, divided into six main modules:
 
 (1-2) First, analyzing the single-cell data to generate various gene signatures that characterize different cell subtypes and immune resistant cell states. For more information see Mapping immune resistance in melanoma.
 
