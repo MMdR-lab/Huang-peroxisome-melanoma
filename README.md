@@ -10,7 +10,7 @@ The data is provided in the RAWDATA folder (GSE116237_scRNAseq_expressionMatrix.
 In the outputs folder you will also find the processed single-cell gene expression (melanoma.rds).
 
 ## Quick start
-To reproduce the results reported in Huang et al. download GSE116237_scRNAseq_expressionMatrix.txt from the RAWDATA folder. In R run the Code file single cell v1.R. It will walk you through the different stages of the study.
+To reproduce the results reported in Huang et al., download GSE116237_scRNAseq_expressionMatrix.txt from the RAWDATA folder. In R run the Code file single cell v1.R. It will walk you through the different stages of the study.
 
 First, We analyzed the single-cell data to generate various gene signatures that characterize different cell states, including pigmentation, SMC, NCSC and invasion. We referred to the article Toward Minimal Residual Disease-Directed Therapy in Melanoma for the gene signatures. For more information see the file signature.csv.
 
