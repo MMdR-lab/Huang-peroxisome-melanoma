@@ -1,4 +1,4 @@
-# Mapping phenotype switching in the process of melanoma therapy with single-cell data
+# Mapping melanoma persister cell states in the process of MAPK-targeted therapy with single-cell data
 This resource provides the code developed in the study of Huang et al. It reproduces the key results of the study and can be applied to other single-cell cohorts to explore the characteristics of phenotype switching in melanoma.
 
 ## Requirements
@@ -24,4 +24,4 @@ The code provided in single cell v1.R reproduces the key results of the study. I
 As the results are already provided in the Results directory, it is possible to run only some parts of the code and focus on specific analyses, or apply the approach to other datasets.
 
 ## Citation
-Huang F et al. ******
+Huang F et al. Peroxisome disruption alters lipid metabolism and potentiates anti-tumor response with MAPK-targeted therapy in melanoma.
